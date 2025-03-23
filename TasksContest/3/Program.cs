@@ -11,7 +11,8 @@ class Program {
         var points = new Point[n];
         for (int i=0; i<n; i++) { // заполняет массив значениями и перебирает элементы
             var Line = Console.ReadLine().Split(); // содержит координаты точек в ввиде строк 
-            points[i] = new Point(int.Parse(Line[0]), int.Parse(Line[1])); // points[0] первая точка массива и
+            points[i] = new Point(int.Parse(Line[0]), int.Parse(Line[1])); // Преобразование строк (первых 2 объектов) в числа
+            
         }
     }
 }
