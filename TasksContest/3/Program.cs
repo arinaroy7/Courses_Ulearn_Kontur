@@ -1,9 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Drawing;
-using System.Collections.Generic;
-
-// по 2 точкам вычисляется площадь 
+﻿// по 2 точкам вычисляется площадь 
 
 using System;
 using System.Collections.Generic;
